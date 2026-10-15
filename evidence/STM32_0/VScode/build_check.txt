@@ -1,0 +1,18 @@
+# STM32_0 VScode 코드 빌드 확인 (Glaysia/ece2_474 v1.1.0, GNU Tools for STM32 14.3.1, cmake --preset Debug)
+# date: 2026-10-16 02:29:37
+
+## example1_led_1s  (exit 0, warnings 0)
+             RAM:        2648 B       128 KB      2.02%
+           FLASH:       25648 B       512 KB      4.89%
+
+## example2_button_toggle  (exit 0, warnings 0)
+             RAM:        2648 B       128 KB      2.02%
+           FLASH:       25760 B       512 KB      4.91%
+
+## task1_button_interval  (exit 0, warnings 0)
+             RAM:        2656 B       128 KB      2.03%
+           FLASH:       25820 B       512 KB      4.92%
+
+## task2_external_led  (exit 0, warnings 0)
+             RAM:        2656 B       128 KB      2.03%
+           FLASH:       25820 B       512 KB      4.92%
