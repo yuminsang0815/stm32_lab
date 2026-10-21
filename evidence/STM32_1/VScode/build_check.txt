@@ -1,0 +1,10 @@
+# STM32_1 VScode 코드 빌드 확인 (Glaysia/ece2_474 v1.1.0, GNU Tools for STM32 14.3.1, cmake --preset Debug)
+# date: 2026-10-21 23:33:00
+
+## task3_isr_interval  (exit 0, warnings 0)
+             RAM:        2656 B       128 KB      2.03%
+           FLASH:       25984 B       512 KB      4.96%
+
+## task4_pwm_button  (exit 0, warnings 0)
+             RAM:        2656 B       128 KB      2.03%
+           FLASH:       26316 B       512 KB      5.02%
