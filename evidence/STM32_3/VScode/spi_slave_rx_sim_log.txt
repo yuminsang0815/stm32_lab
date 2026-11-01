@@ -1,0 +1,7 @@
+# spi_slave_rx simulation log
+# date: 2026-11-01 23:30:34
+# tool: Icarus Verilog version 12.0 (devel) (s20150603-1539-g2693dd32b)
+# command: iverilog -g2012 -o spi_slave_rx.vvp ../src/*.v tb_spi_slave_rx.sv && vvp -n spi_slave_rx.vvp
+VCD info: dumpfile spi_slave_rx.vcd opened for output.
+PASS SPI_SLAVE_RX: 55 A5 00 FF, partial byte dropped, next byte 3C
+tb_spi_slave_rx.sv:39: $finish called at 77100000 (1ps)

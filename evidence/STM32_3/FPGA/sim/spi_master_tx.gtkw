@@ -1,0 +1,15 @@
+[dumpfile] "spi_master_tx.vcd"
+[timestart] 0
+[size] 1400 600
+@28
+tb.start
+tb.cs_n
+tb.sck
+tb.mosi
+@24
+tb.dut.edges[3:0]
+@22
+tb.tx[7:0]
+tb.cap[7:0]
+@28
+tb.done

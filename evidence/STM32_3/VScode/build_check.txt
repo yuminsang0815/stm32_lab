@@ -1,0 +1,10 @@
+# STM32_3 VScode 코드 빌드 확인 (Glaysia/ece2_474 v1.1.0 템플릿, GNU Tools for STM32 14.3.1, cmake --preset Debug)
+# date: 2026-11-01 23:28:11
+
+## spi_master_tx  (exit 0, warnings 0)
+             RAM:        2648 B       128 KB      2.02%
+           FLASH:       28896 B       512 KB      5.51%
+
+## spi_slave_rx  (exit 0, warnings 0)
+             RAM:        2640 B       128 KB      2.01%
+           FLASH:       30736 B       512 KB      5.86%

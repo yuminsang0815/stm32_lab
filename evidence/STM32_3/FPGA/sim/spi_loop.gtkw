@@ -1,0 +1,15 @@
+[dumpfile] "spi_loop.vcd"
+[timestart] 0
+[size] 1400 600
+@22
+tb.sw[7:0]
+@28
+tb.cs_n
+tb.sck
+tb.mosi
+tb.slave.rx_valid
+@22
+tb.slave.rx_data[7:0]
+tb.led_rx[7:0]
+@28
+tb.txd

@@ -1,0 +1,4 @@
+/vivado/
+*.vvp
+*.vcd
+.Xil/

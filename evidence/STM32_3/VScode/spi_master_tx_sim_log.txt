@@ -1,0 +1,7 @@
+# spi_master_tx simulation log
+# date: 2026-11-01 23:30:34
+# tool: Icarus Verilog version 12.0 (devel) (s20150603-1539-g2693dd32b)
+# command: iverilog -g2012 -o spi_master_tx.vvp ../src/*.v tb_spi_master_tx.sv && vvp -n spi_master_tx.vvp
+VCD info: dumpfile spi_master_tx.vcd opened for output.
+PASS SPI_MASTER_TX: Mode0, 8 rising edges, MSB first, SCK 500 kHz
+tb_spi_master_tx.sv:35: $finish called at 68271000 (1ps)

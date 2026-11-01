@@ -1,0 +1,8 @@
+Vivado 2026.1, xc7s75fgga484-1, 50 MHz clock (B6, 20 ns constraint)
+XSim (tb_spi_loop): PASS SPI_LOOP: FPGA master -> FPGA slave -> UART RX=55 A5 00 FF
+
+top           WNS(ns)  WHS(ns)  LUT  FF   errors/critical warnings
+spi_rx_uart   14.631   0.122    87   99   0 / 0
+spi_tx_top    14.309   0.219    70   88   0 / 0
+
+Bitstreams: spi_rx_uart.bit (task 10, 12 receiver), spi_tx_top.bit (task 11, 12 sender)
