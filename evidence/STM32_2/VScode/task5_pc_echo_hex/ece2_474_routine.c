@@ -32,7 +32,7 @@ void polling_routine(void)
     if (ch != EOF)
     {
         uint8_t data = (uint8_t)ch;
-        printf("받은 문자: %c, 바이트 값: 0x%02X\r\n", (char)data, (unsigned int)data);
+        printf("Received: %c, byte: 0x%02X\r\n", (char)data, (unsigned int)data);
     }
 }
 

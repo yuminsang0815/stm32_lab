@@ -24,7 +24,7 @@ NUCLEO-G474RE, 수업 프로젝트 [Glaysia/ece2_474](https://github.com/Glaysia
 ## 과제5 · PC ↔ MCU
 
 - FPGA 연결 없이 진행한다.
-- `1`, `A`, `a`를 하나씩 보내면 `받은 문자: 1, 바이트 값: 0x31`, `0x41`, `0x61`이 출력되어야 한다.
+- `1`, `A`, `a`를 하나씩 보내면 `Received: 1, byte: 0x31`, `0x41`, `0x61`이 출력되어야 한다.
 - 아무것도 보내지 않으면 getchar에서 기다리는 상태다. F5 실행 중에 일시정지(F6)하면 Call Stack이 getchar → `__io_getchar` → HAL_UART_Receive 안에 있어 오류로 멈춘 것이 아님을 확인할 수 있다.
 
 ## 과제6 · PC → MCU → FPGA → PC
@@ -47,7 +47,7 @@ PC10의 정확한 헤더 위치와 BDIO_00 커넥터 위치는 보드 실크와 
 ### 확인
 
 - Serial Monitor 창 두 개: MCU 포트(보내기), FPGA 포트(받기). 둘 다 9600 8N1.
-- MCU 포트로 `1`, `A`, `a`를 보내면 MCU 포트에 `보낸 문자: A (0x41), 전송 결과: 0`, FPGA 포트에 `A`가 나와야 한다.
+- MCU 포트로 `1`, `A`, `a`를 보내면 MCU 포트에 `TX char: A, byte: 0x41, result: 0`, FPGA 포트에 `A`가 나와야 한다.
 - 전송 결과 0(HAL_OK)은 MCU가 보냈다는 뜻일 뿐이다. FPGA 포트에 같은 문자가 나와야 수신 성공이다. FPGA LED2~LED8에도 받은 바이트 하위 7비트가 표시된다(예: `A` = 0x41 → 100_0001).
 
 ## 과제7 · UART 명령으로 FPGA LED 제어

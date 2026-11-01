@@ -35,7 +35,7 @@ void polling_routine(void)
         uint8_t data = (uint8_t)ch;
         HAL_StatusTypeDef result =
             HAL_UART_Transmit(&huart3, &data, 1U, 100U);
-        printf("보낸 문자: %c (0x%02X), 전송 결과: %d\r\n",
+        printf("TX char: %c, byte: 0x%02X, result: %d\r\n",
                (char)data, (unsigned int)data, (int)result);
     }
 }
